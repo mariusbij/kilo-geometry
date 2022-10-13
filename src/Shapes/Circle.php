@@ -12,11 +12,11 @@ class Circle implements ShapeInterface
 
     public function calculateArea(): float
     {
-        return round($this->radius ** 2 * pi(), 2);
+        return $this->radius ** 2 * pi();
     }
 
     public function calculatePerimeter(): float
     {
-        return round(2 * pi() * $this->radius, 2);
+        return 2 * pi() * $this->radius;
     }
 }

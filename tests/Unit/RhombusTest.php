@@ -27,6 +27,6 @@ class RhombusTest extends TestCase
 
         $rhombus = $builder->getRhombus();
 
-        $this->assertEquals(2.18, $rhombus->calculateArea());
+        $this->assertEquals(2.18, round($rhombus->calculateArea(), 2));
     }
 }

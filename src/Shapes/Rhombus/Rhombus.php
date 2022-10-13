@@ -28,7 +28,7 @@ class Rhombus implements ShapeInterface
 
         } elseif (isset($this->side) && isset($this->angleDegrees)) {
 
-            return round($this->side ** 2 * sin(deg2rad($this->angleDegrees)), 2);
+            return $this->side ** 2 * sin(deg2rad($this->angleDegrees));
 
         } else {
 
@@ -50,7 +50,7 @@ class Rhombus implements ShapeInterface
             }
         }
 
-        return round($this->side * 4, 2);
+        return $this->side * 4;
     }
 
     public function setSide(?float $side): void
