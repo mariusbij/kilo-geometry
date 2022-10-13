@@ -5,7 +5,7 @@
 * `composer install` from project dir
 
 # Info 
- Since there are multiple ways to calculate the area of a rhombus, use the RhombusBuilder: 
+ Since there are multiple ways to calculate area and perimeter of a rhombus, use the RhombusBuilder: 
  
  
  1. Create a builder `$builder = new RhombusBuilder();`
