@@ -50,7 +50,7 @@ class Rhombus implements ShapeInterface
             }
         }
 
-        return round($this->side * 4, 1);
+        return round($this->side * 4, 2);
     }
 
     public function setSide(?float $side): void
