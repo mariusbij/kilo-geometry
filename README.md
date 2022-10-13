@@ -5,10 +5,10 @@
 * `composer install` from project dir
 
 # Info 
- Since there are multiple ways to calculate the area of a Rhombus, use a RhombusBuilder: 
+ Since there are multiple ways to calculate the area of a rhombus, use the RhombusBuilder: 
  
  
- 1. Create builder `$builder = new RhombusBuilder();`
+ 1. Create a builder `$builder = new RhombusBuilder();`
  
  2. Create a rhombus with one of the following depending of what data you have:
  
@@ -18,7 +18,7 @@
   
  * `$builder->createWithSideAndAngleDegrees($side, $angleDegrees);`
   
- 3. Finally, get Rhombus object that you've created
+ 3. Finally, get the Rhombus object that you've created
  
     `$builder->getRhombus();`
     
