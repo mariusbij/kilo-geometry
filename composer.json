@@ -8,6 +8,11 @@
             "Mariusbij\\KiloGeometry\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Marius\\KiloGeometry\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "mariusbij"
@@ -15,5 +20,17 @@
     ],
     "require": {
         "php": "^8.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.8",
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "phpstan": "./vendor/bin/phpstan analyse -c phpstan.neon.dist --memory-limit=2G",
+        "phpunit": "./vendor/bin/phpunit -c ./phpunit.xml.dist",
+        "all": [
+            "@phpstan",
+            "@phpunit"
+        ]
     }
 }
