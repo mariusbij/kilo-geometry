@@ -42,7 +42,7 @@ class Rhombus implements ShapeInterface
 
             if (isset($this->firstDiagonal) && isset($this->secondDiagonal)) {
 
-                $this->side = sqrt(($this->firstDiagonal ** 2 + $this->secondDiagonal ** 2) / 2);
+                $this->side = sqrt(($this->firstDiagonal ** 2 + $this->secondDiagonal ** 2)) / 2;
 
             } else {
 
