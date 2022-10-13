@@ -1,0 +1,19 @@
+{
+    "name": "mariusbij/kilo-geometry",
+    "description": "Geometry task",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mariusbij\\KiloGeometry\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mariusbij"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    }
+}
