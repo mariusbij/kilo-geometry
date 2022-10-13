@@ -32,7 +32,7 @@ class Rhombus implements ShapeInterface
 
         } else {
 
-            throw new \InvalidArgumentException('Invalid arguments given');
+            throw new \InvalidArgumentException('Invalid arguments given for rhombus area calculation');
         }
     }
 
@@ -46,7 +46,7 @@ class Rhombus implements ShapeInterface
 
             } else {
 
-                throw new \InvalidArgumentException('Invalid arguments given');
+                throw new \InvalidArgumentException('Invalid arguments given for rhombus perimeter calculation');
             }
         }
 
